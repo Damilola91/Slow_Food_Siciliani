@@ -3,14 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Presidi Slow Food Siciliani</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Sicilian Taste - Presidi Slow Food Siciliani</title>
+    <link rel="stylesheet" href="./homePage.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="container">
-        <h1>Presidi Slow Food Siciliani</h1>
-        <nav>
+        <h1>Sicilian - Presidi Slow Food Siciliani</h1>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <nav class="main-nav">
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Prodotti</a></li>
@@ -21,7 +29,7 @@
       </div>
     </header>
 
-    <main class="main-content">
+    <main class="main-content container">
       <aside class="aside-left">
         <h2>Notizie e Eventi</h2>
         <ul>
@@ -31,22 +39,20 @@
         </ul>
       </aside>
 
-      <section class="hero">
-        <div class="container">
+      <div class="content-wrapper">
+        <section class="hero">
           <h2>Scopri i migliori prodotti tipici della Sicilia</h2>
           <p>
             Presidi Slow Food che rispettano tradizione, gusto e sostenibilità.
           </p>
-        </div>
-      </section>
+        </section>
 
-      <section class="products">
-        <div class="container">
+        <section class="products">
           <h2>I nostri prodotti</h2>
           <div class="card-grid">
             <article class="card">
               <img
-                src="https://via.placeholder.com/300x200"
+                src="https://res.cloudinary.com/dbxysr1a6/image/upload/v1733741238/SICILIAN-TASTE-SERVER-UPLOADS/ragusano-dop.jpg"
                 alt="Formaggio Ragusano DOP"
               />
               <div class="card-content">
@@ -58,52 +64,53 @@
 
             <article class="card">
               <img
-                src="https://via.placeholder.com/300x200"
-                alt="Olive Nocellara del Belice"
+                src="https://res.cloudinary.com/dbxysr1a6/image/upload/v1733349940/SICILIAN-TASTE-SERVER-UPLOADS/Olio-Extravergine-di-Oliva-Nocellara-del-Belice.avif"
+                alt="Olio EVO Nocellara del Belice"
               />
               <div class="card-content">
-                <h3>Olive Nocellara del Belice</h3>
-                <p>Olive DOP dal gusto unico e fruttato.</p>
+                <h3>Olio EVO Nocellara del Belice</h3>
+                <p>Olio DOP dal gusto unico e fruttato.</p>
                 <p class="price">€8 / 500g</p>
               </div>
             </article>
 
             <article class="card">
               <img
-                src="https://via.placeholder.com/300x200"
-                alt="Arancini di Sicilia"
+                src="https://res.cloudinary.com/dbxysr1a6/image/upload/v1733340284/SICILIAN-TASTE-SERVER-UPLOADS/arancina.jpg"
+                alt="Arancine"
               />
               <div class="card-content">
-                <h3>Arancini di Sicilia</h3>
+                <h3>Arancine</h3>
                 <p>
-                  Classici arancini siciliani preparati con ingredienti locali.
+                  Classiche arancine siciliane preparate con ingredienti locali.
                 </p>
-                <p class="price">€3 / pezzo</p>
+                <p class="price">€3</p>
               </div>
             </article>
 
             <article class="card">
               <img
-                src="https://via.placeholder.com/300x200"
-                alt="Miele di zagara"
+                src="https://res.cloudinary.com/dbxysr1a6/image/upload/v1733338319/SICILIAN-TASTE-SERVER-UPLOADS/panini-ca-meusa.jpg"
+                alt="Pane ca’ meusa"
               />
               <div class="card-content">
-                <h3>Miele di zagara</h3>
-                <p>Miele profumato di fiori d'arancio tipico della Sicilia.</p>
-                <p class="price">€12 / vaso 250g</p>
+                <h3>Pane ca’ meusa</h3>
+                <p>
+                  Panino tipico palermitano a base di polmone e milza. Può
+                  essere "Schiettu" o "Maritatu".
+                </p>
+                <p class="price">€2.50</p>
               </div>
             </article>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       <aside class="aside-right">
         <h2>Curiosità</h2>
         <ul>
           <li>La Sicilia è patria di oltre 60 presidi Slow Food</li>
-          <li>
-            Il cioccolato di Modica è stato dichiarato patrimonio culturale
-          </li>
+          <li>Il cioccolato di Modica è patrimonio culturale</li>
           <li>
             L'olio extravergine siciliano ha riconoscimenti internazionali
           </li>

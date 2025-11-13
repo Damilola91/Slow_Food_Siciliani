@@ -19,6 +19,7 @@ Un sito pulito e moderno con:
 
 ## 🗂️ Struttura del progetto
 
+```bash
 Sicilian-Taste/
 │
 ├── homePage.html
@@ -33,6 +34,7 @@ Sicilian-Taste/
 ├── product.css
 │
 └── README.md
+```
 
 ---
 
@@ -121,13 +123,13 @@ I CSS adottano:
 2. Apri homePage.html nel browser.
 3. Naviga tra le varie pagine cliccando sulle card dei prodotti o sui link del menu.
 
-👨‍💻 Autore
+## 👨‍💻 Autore
 
 Progetto realizzato da:
 Damilola Abiola Wiwoloku
 Sviluppatore Web FullStack | Appassionato di cultura gastronomica siciliana
 
-📄 Licenza
+## 📄 Licenza
 
 © 2025 Sicilian Taste – Tutti i diritti riservati.
 Questo progetto è destinato a scopi dimostrativi e di portfolio.

@@ -74,6 +74,7 @@ Ogni pagina include:
 | `paneCàMeusaPage.html` | Pane ca’ meusa                |
 | `olioEvoPage.html`     | Olio EVO Nocellara del Belice |
 | `ragusanoPage.html`    | Formaggio Ragusano DOP        |
+| `whoWeAre.html`        | Pagina Chi Siamo              |
 
 ---
 
